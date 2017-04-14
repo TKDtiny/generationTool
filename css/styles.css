@@ -1,0 +1,67 @@
+/*! TKD tiny */
+@charset "utf-8";
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;padding: 0;
+}
+.table {
+    margin-top: 20px;
+}
+.table > tbody > tr:first-child {
+    background-color: rgb(147, 224, 255);
+}
+.table > tbody > tr > th{
+    width: 100px;
+    height: 48px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 48px;
+}
+.table > tbody > tr > td{
+    padding: 0;
+    height: 48px;
+}
+.table > tbody > tr > td:first-child{
+    line-height: 48px;
+    background-color: rgb(175,215,237);
+}
+.table tr > td{
+    text-align: center;
+    padding: 0;
+    font-size: 18px;
+}
+.table input{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    outline: none;
+    background-color: rgb(199,237,233);
+    text-align: center;
+}
+.table > tfoot > tr > td{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(199,237,233);
+    line-height: 48px;
+}
+.table tfoot td:first-child{
+    background-color: rgb(175,215,237);
+}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th{
+    border: 1px solid rgb(92,167,186);
+}
+.row > .btn{
+    font-size: 24px;
+}
+.myCharts {
+    min-height: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.barBox,.pieBox{
+    min-height: 600px;
+    background-color: rgb(147, 224, 255);
+}
